@@ -1,0 +1,137 @@
+/* Write your CSS here 
+Hex: #9796f0
+Hex: #fbc7d4
+Hex: #ffffff
+Hex: #171f46
+Hex: #8b5cf6
+Hex: #b5b7c4
+Hex: #9897f0*/
+
+body {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: white;
+  padding: 15px;
+  width: 80%;
+  max-width: 576px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+}
+
+.form-container {
+  /* border: 1px solid black; */
+}
+.heading {
+  color: #171f46;
+  font-size: 24px;
+}
+.form {
+}
+.lable {
+  font-weight: 800;
+  color: #b5b7c4;
+  font-size: 12px;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #b5b7c4;
+  border-radius: 8px;
+  outline: none;
+}
+.add-btn {
+  background-color: #9796f0;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.line {
+  background-color: #b5b7c4;
+  border: 1px solid #b5b7c4;
+  margin: 25px 0;
+}
+
+.appointments-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-heading {
+  color: #171f46;
+  font-size: 18px;
+}
+.starred-btn {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.appointmentsItems-container {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .appointments-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 80%;
+    max-width: 1080px;
+    padding: 30px;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+  }
+  .appointments-img {
+    width: 400px;
+  }
+  .heading {
+    margin: 0;
+  }
+  .appointmentsItems-container {
+    display: flex;
+    align-items: center;
+  }
+  .form {
+    width: 400px;
+  }
+}

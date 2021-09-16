@@ -1,0 +1,48 @@
+/* Write your CSS here 
+Hex: #9796f0
+Hex: #fbc7d4
+Hex: #ffffff
+Hex: #171f46
+Hex: #8b5cf6
+Hex: #b5b7c4
+Hex: #9897f0
+*/
+
+.app-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.app-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-name {
+  font-weight: 700;
+  color: #171f46;
+}
+.star-btn {
+  background-color: transparent;
+  border: 0;
+}
+.star-img {
+}
+.app-date {
+  margin: 0;
+  color: #b5b7c4;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-item {
+    margin-right: 10px;
+  }
+  .app-item {
+    width: 200px;
+    height: 150px;
+  }
+}
